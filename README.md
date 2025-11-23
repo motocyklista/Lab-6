@@ -28,7 +28,7 @@ Po kompilacji uruchom plik wykonywalny:
 ```bash
 bezwzgledna.exe
 ```
-Program poprosi o podanie cyfr zgodnie z wytycznymi programu i zakończenie go enterem. Następnie zwróci wynik:
+Program poprosi o podanie ilości elementów tablicy, a następnie podania ich wartości. Następnie zwróci wynik:
 
 ---
 
