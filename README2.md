@@ -2,7 +2,8 @@
 
 # Program: "Symulacja aplikacji bankowej"
 
-Program napisany w języku C, który symuluje działanie prostego banku z możliwością wpłat, wypłat oraz sprawdzania salda dla kont o numerach od 0 do 99.
+Program w języku C, który symuluje podstawowe operacje bankowe na 100 kontach. Użytkownik może wpłacać środki (DEPOSIT), wypłacać środki (WITHDRAW) lub sprawdzać saldo (SHOW) dla wybranego konta.
+
 
 ---
 
@@ -54,22 +55,21 @@ Program wypisuje komunikaty o powodzeniu operacji lub błędach, np. za mało ś
 ```
 C:\Users\X\Desktop\homework>bank.exe
 Podaj polecenie: 1
-Podaj numer konta (0-99) i kwote: 2 150.50
-DEPOSIT OK. Konto 2 nowe saldo: 150.50
+Podaj numer konta (0-99) i kwote: 99 50
+DEPOSIT OK. Konto 99 nowe saldo: 50.00
 ```
 
 ```
 C:\Users\X\Desktop\homework>bank.exe
 Podaj polecenie: 2
-Podaj numer konta (0-99) i kwote: 1 50
-WITHDRAW ERROR: za malo srodkow na koncie 1
+Podaj numer konta (0-99) i kwote: 99 30
+WITHDRAW OK. Konto 99 nowe saldo: 20.00
 ```
 
 ```
 C:\Users\X\Desktop\homework>bank.exe
-Podaj polecenie: 3
-Podaj numer konta (0-99): 0
-SHOW: konto 0 saldo = 0.00
+Podaj polecenie: 3 99
+Podaj numer konta (0-99): SHOW: konto 99 saldo = 20.00
 ```
 
 ```
